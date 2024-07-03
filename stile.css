@@ -99,7 +99,7 @@ body{
     color: var(--cor-de-funco);
 }
 .descricao__texto2{
-    margin: 1px 3em 1px 3em;
+    margin: 1px 3em 1px 2em;
     align-items: center;
     text-align: center;
     color: #000000;
@@ -166,4 +166,18 @@ body{
 .lista{
 color: #000000;
 margin-left: 2em;
+}
+
+.titulomissao{
+color: #000000;
+margin-left: 2cm;
+font-size: 40px;
+}
+
+.textomissao{
+color: #000000;
+font-family: var(--font-principal);
+margin: 50px 1cm 1cm 1cm;
+font-size: 25px;
+text-align: left;
 }

@@ -1,0 +1,80 @@
+body{
+    background-color: #C8c8c8;
+}
+
+.j1{
+    font-size: 30px;
+    text-align: center;
+    margin:100px 2cm 0 2cm ;
+}
+
+.email{
+    width: 500px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.input{
+border: none;
+outline: none;
+font-size: 25px;
+border-bottom: 1px solid black;
+text-decoration: none;
+background-color:  rgb(255, 255, 255);
+}
+
+.emailtexto{
+margin-left: 0;
+font-family: 10px;
+}
+
+.adicionarcurriculo{
+    width: 350px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.textocurriculo{
+    font-size: 25px;
+}
+
+.adicionarcurriculo:active{
+    color: #C8c8c8;
+}
+
+.enviar{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(0, 47, 255);
+    margin: 50px 140px 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.textoenviar{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.enviar:active{
+    background-color: rgb(21, 0, 141);
+}
+    
+
+.enviar:hover{
+    background-color: rgb(22, 64, 253)
+}
