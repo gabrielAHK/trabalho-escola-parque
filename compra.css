@@ -54,3 +54,16 @@ text-decoration: none;
 margin-left: 0;
 font-family: 10px;
 }
+
+
+@media screen and (max-width: 600px){
+    .input{
+        margin-right: 1em;
+    }
+
+    .item{
+        margin-right: 5px;
+        text-align: center;
+        font-size: 20px;
+    }
+}

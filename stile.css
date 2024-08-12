@@ -35,7 +35,6 @@ body{
 .kkkll{
     margin-bottom: 1cm;
     font-size: 80px;
-    align-items: center;
     text-align: center;
     color: var(--cor-de-funco);
     font-weight: 600;
@@ -180,4 +179,88 @@ font-family: var(--font-principal);
 margin: 50px 1cm 1cm 1cm;
 font-size: 25px;
 text-align: left;
+}
+
+@media screen and (max-width: 600px){
+
+    .container{
+        display: block;
+    }
+
+    .kkkll{
+        text-align: center;
+        font-size: 55px;
+        display: block;
+        margin: 1em auto;
+        padding: 0em;
+    }
+
+    .principal{
+        background-position: 5px 0em;
+        background-size: 400px;
+    }
+
+    .container__imagem{
+        display:none;
+    }
+
+    .container__titulo{
+        padding-left: 0;
+        margin-top: 5.5em;
+        font-size: 35px;
+    }
+
+    .container__botao{
+        margin-top: 30px;
+    }
+
+    .secundario__imagem{
+        display: block;
+        margin: 0 auto ;
+        width: 70%;
+    }
+
+    .descricao__titulo{
+        margin-top: 0;
+    }
+
+    .descricao__titulo2{
+        margin-top: 0;
+    }
+
+    .imagem__atrações{
+        margin-top: 0;
+        width: 70%;
+    }
+
+    .secundario{
+        margin-top: -20em;
+        padding: 0;
+    }
+
+    .descricao__titulo2{
+        margin-top: 0em;
+    }
+
+    .descricao__texto{
+        margin-bottom: 0em;
+    }
+
+    .textomissao{
+        text-align: center;
+    }
+
+    .lista{
+        text-align: center;
+        margin-left: 1em;
+    }
+
+    .secundario__botao{
+        display: block;
+        margin: 2.5em 5em;
+    }
+
+    .quemsomos{
+        margin-top: -6em;
+    }
 }
